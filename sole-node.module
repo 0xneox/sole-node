@@ -5,15 +5,12 @@
  * @author      <"neohex">
 
  */
-
 function sole_node_node_insert($node) {
   _sole_node_make_node_alone_at_front_page($node);
 }
-
 function sole_node_node_update($node) {
   _sole_node_make_node_alone_at_front_page($node);
 }
-
 
 function _sole_node_make_node_alone_at_front_page($node) {
   if ($node->promote) {
